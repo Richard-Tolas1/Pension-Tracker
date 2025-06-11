@@ -16,7 +16,7 @@ function ExistingPots({
         Existing Pension Pots
       </h2>
       {existingPots.map((pot, index) => (
-        <div key={pot.id} className="flex items-center space-x-3 mb-3">
+        <div key={pot.id} className="md:flex lg:flex items-center space-x-3 md:space-y-0 space-y-3 mb-3">
           <input
             type="text"
             value={pot.name}
