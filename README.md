@@ -74,6 +74,7 @@ Installation
 Clone the repository:
 
 git clone https://github.com/Richard-Tolas1/Pension-Tracker.git
+
 cd pension-tracker
 
 Install dependencies:
