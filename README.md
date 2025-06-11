@@ -1,6 +1,7 @@
 Pension Tracker Application
 
 🚀 Overview
+
 The Pension Tracker is a user-friendly web application designed to help individuals visualize their projected pension pot. Users can input key financial details, including desired retirement income, employer and personal contributions, and retirement age. The application then calculates and displays a visual projection of their pension fund's growth during accumulation and its subsequent decrease during retirement, providing a clear overview of their financial future.
 
 ✨ Features
