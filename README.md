@@ -40,6 +40,20 @@ Fixed Interest Rate: The 4.9% annual interest rate is constant throughout the pr
 
 No Inflation/Taxation: The projections do not account for inflation or tax implications on contributions, growth, or withdrawals.
 
+🧮 Calculations
+
+PV = PMT * [ (1 - (1 + i)^-N) / i]
+
+Where:
+
+PV (Present Value) = This is the desired lump sum or the total amount of money you need to have in your pension pot at the beginning of your retirement (at your chosen retirement age). This lump sum is what's required to fund all your future annual income withdrawals.
+
+PMT (Payment Amount) = This represents the periodic payment or the amount of income you wish to receive each year during retirement. This is your "desired annual income in retirement."
+
+i (Interest Rate) = This is the interest rate per period. Which is fixed at 0.049 or 4.9%.
+
+N (Number of Periods) = This is the total number of payment periods. It represents the number of years you expect to be in retirement, calculated as your lifeExpectancy - retirementAge.
+
 🛠️ Technologies Used
 
 React (Vite): A JavaScript library for building user interfaces.
@@ -119,3 +133,4 @@ src/Test/InputForm.test.tsx: Unit tests for the InputForm component, verifying i
 src/Test/ExistingPots.test.tsx: Unit tests for the ExistingPots component, covering adding, changing, and removing pension pots.
 
 src/Test/Charts.test.tsx: Unit tests for the Charts component, ensuring correct data display and chart rendering (with recharts components mocked).
+ 
